@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #022B3A
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#city {
+    background-image: url("images/przemysl.jfif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 250px;
+}
+
+#name {
+    background: #eaf4f4;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+#about {
+    background: #eaf4f4;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attractions {
+    background-color: #fbf1ea;
+    margin-bottom: 5%; 
+    padding-top: 1px;
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+.rynek {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.air {
+    margin-right: 30px;
+}
+
+.images {
+    border-radius: 50%;
+}
+
+.card {
+    width: 310px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border: 6px solid #1F7A8C;
+}
+
+.paula {
+    width: 180px;
+    height: 200px;
+}
